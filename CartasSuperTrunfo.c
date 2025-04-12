@@ -11,7 +11,7 @@ int main(){
     float Densidade;
     float PibPerCapita;
     
-    
+
     printf ("digite o Estado(C para CE e B para BA):\n");
     scanf (" %c", &Estado);
 
@@ -35,6 +35,7 @@ int main(){
 
     Densidade = populacao / area;
     PibPerCapita = (pib * 1000000000) / populacao;
+    
 
     printf("\n--- Carta 1 ---\n");
     printf("Estado: %c\n", Estado);
