@@ -11,6 +11,7 @@ int main(){
     float Densidade;
     float PibPerCapita;
     
+    
     printf ("digite o Estado(C para CE e B para BA):\n");
     scanf (" %c", &Estado);
 
